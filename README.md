@@ -35,3 +35,7 @@ Open you browser and type url
 ``` localhost:4000 ```
 # Postman to check routes
 All routes are working fine
+<br>
+![Post](https://github.com/wadhwaniv1/Meeting-Scheduler/blob/master/images/Capture1.PNG)
+<br>
+![Put](https://github.com/wadhwaniv1/Meeting-Scheduler/blob/master/images/Capture2.PNG)
