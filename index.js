@@ -14,10 +14,6 @@ app.set('view engine', 'handlebars');
 //static file
 app.use('/public', express.static(path.join(__dirname,'public')));
 
-app.get('/meet', function(req,res){
-    res.render(__dirname,'/views/meet')
-})
-
 //setting up mongodb
 mongoose.connect('mongodb://localhost/ninjago', { useNewUrlParser: true })
 mongoose.Promise = global.Promise
